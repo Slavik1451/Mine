@@ -21,8 +21,6 @@ def сaesar_coder(shift, uncoded_message):
 start = ord('a')
 end = ord('z')
 
-
-
 if __name__ == "__main__":
     test_code = сaesar_coder(1, 'ilovepython')
     print(f'Зашифрованное сообщение "ilovepython" = {test_code}')
